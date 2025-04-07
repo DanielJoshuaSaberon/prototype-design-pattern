@@ -26,7 +26,6 @@ public class TestAnimal {
         System.out.println("Cloned Cow: " + secondCow.getType());
         secondCow.makeSound();
 
-
         System.out.println("\nOriginal Horse: " + horse.getType());
         horse.makeSound();
         System.out.println("Cloned Horse: " + secondHorse.getType());
