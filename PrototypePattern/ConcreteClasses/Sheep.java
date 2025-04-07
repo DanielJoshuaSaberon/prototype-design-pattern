@@ -27,6 +27,6 @@ public class Sheep implements Animal {
 
     @Override
     public Animal clone() {
-        return new Sheep(legs, food, name, sound);
+        return new Sheep(legs, sound, food, name);
     }
 }
