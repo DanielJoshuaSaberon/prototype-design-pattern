@@ -16,11 +16,21 @@ public class TestAnimal {
         Animal secondHorse = horse.clone();
 
 
-        System.out.println("----------------------");
         System.out.println("Original Sheep: " + sheep.getType());
         sheep.makeSound();
-
-        System.out.println("\nCloned Sheep: " + secondSheep.getType());
+        System.out.println("Cloned Sheep: " + secondSheep.getType());
         sheep.makeSound();
+
+        System.out.println("\nOriginal Cow: " + cow.getType());
+        cow.makeSound();
+        System.out.println("Cloned Cow: " + secondCow.getType());
+        secondCow.makeSound();
+
+
+        System.out.println("\nOriginal Horse: " + horse.getType());
+        horse.makeSound();
+        System.out.println("Cloned Horse: " + secondHorse.getType());
+        secondHorse.makeSound();
+
     }
 }
